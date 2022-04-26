@@ -1,9 +1,11 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .signup {
-    background-color: #1f2937;
+    background-color: #1f2937b7;
     color: white;
     padding: 0px 100px;
 }
@@ -38,6 +40,7 @@ a {
     display: flex;
     padding-bottom: 100px;
     justify-content: center;
+    gap: 100px;
 }
 
 .signup-text {
@@ -69,6 +72,111 @@ a {
 .img-main {
     display: flex;
     max-width: 550px;
-    justify-content:;
+    border-radius: 5px;
+}
 
+.info {
+    padding: 0px 100px;
+    padding-bottom: 100px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center
+}
+
+.item {
+    vertical-align:;
+    display: inline-block;
+    text-align: center;
+    width: 275px;
+}
+.info-imgs {
+    max-width: 230px;
+    max-height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.caption {
+    display: block;
+    color: #1f2937;
+    padding-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7ebb2;
+    padding: 100px 200px;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote h3 {
+    font-size: 22px;
+    text-align: right;
+}
+
+
+.calltoaction {
+    background-color: #3881f6b5;
+    margin: 100px 150px;
+    padding: 50px;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.calltoaction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.calltoaction h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.calltoaction h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.calltoaction  button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937b7;
+    text-align: center;
+    padding: 25px 0px;
+    color: #e5e7eb;
+}
+
+.footer h3 {
+    font-weight: lighter;
+    font-size: 15px;
 }
